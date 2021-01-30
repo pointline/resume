@@ -31,6 +31,11 @@ a {
   @include transition(all .2s ease-in-out);
 }
 
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
 .last-modified {
   position: absolute;
   top: 30px;
@@ -187,6 +192,8 @@ a {
             }
           }
           .iconfont {
+            display: inline-block;
+            margin-left: 4px;
             fill: #fff;
             vertical-align: text-top;
             @media screen and (max-width: 720px) {
